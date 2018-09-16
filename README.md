@@ -10,9 +10,13 @@ DTcheck 是一个基于爬虫查询 KEGG, DrugBank, ChEMBL  3 个数据库验证
 在 DTcheck/Data/ 文件夹下有需要输入的原始数据，代码在 DTcheck/Code/ 文件夹下
 
 **注意** drugTargetCheck.py 中下述 4 条命令，需要针对待查询数据集而注释掉其余 3 个数据集，直接运行 drugTargetCheck.py 
+
  dn = dataName[1]      # GPCR 数据集
+ 
  dn = dataName[2]      # IC 数据集
+ 
  dn = dataName[0]      # Enzyme 数据集
+ 
  dn = dataName[3]      # NR 数据集
  
  ### E-mail: donghuayu@hit.edu.cn or guomaozu@bucea.edu.cn
